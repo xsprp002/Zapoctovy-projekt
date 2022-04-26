@@ -1,0 +1,50 @@
+body {
+    background-color: lightgray;
+    margin-left: 3em;
+    font-family: 'Times New Roman';
+}
+
+.text_white {
+    color: white;
+}
+
+header {
+    background-color: rgb(56, 167, 241);
+}
+
+nav {
+    background-color: rgb(56, 121, 241);
+    margin-left: 1em;
+}
+
+a:link { color: black }
+a:visited { color: black }
+a:hover { color: red}
+a:active { color: maroon }
+
+aside,
+section {
+    display: inline-block;
+}
+
+section {
+    float: left;
+    width: 70%;
+    margin-left: 2em;
+}
+
+aside {
+    float: right;
+    width: 10%;
+    margin-right: 5em;
+    position: sticky;
+    top: 0;
+    border: 2mm ridge blue;
+}
+
+footer {
+    background-color: rgb(56, 167, 241);
+    text-align: center;
+    clear: both;
+    width: 100%;
+}

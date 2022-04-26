@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="celnickaDeklarace.xsd"?>
+<?xml-stylesheet href="celnickaDeklarace.xsl" type="text/xsl"?>
+<deklarace>
+    <typDeklarace typ="uplna">export</typDeklarace>
+    <celkovaCastka mena="czk">52099</celkovaCastka>
+    <zabezpeceni>2</zabezpeceni>
+    <odesilatel>
+        <id>CZ-654321</id>
+        <jmeno>Jarmil Přísavka</jmeno>
+        <kontakt typ="tel">777888999</kontakt>
+        <adresa>
+            <zeme>Česká republika</zeme>
+            <mesto>Ostrava</mesto>
+            <ulice>U Chodovského hřbitova 1/86</ulice>
+            <PSC>17152</PSC>
+        </adresa>
+    </odesilatel>
+    <prijemce>
+        <id>SK-123456</id>
+        <jmeno>Karel Hustenprásk</jmeno>
+        <kontakt typ="mail">moje@adresa.sk</kontakt>
+        <adresa>
+            <zeme>Slovensko</zeme>
+            <mesto>Senec</mesto>
+            <ulice>Železničná 1971/56</ulice>
+            <PSC>90301</PSC>
+        </adresa>
+    </prijemce>
+    <prepravce>
+        <id>PL-123456</id>
+        <jmeno>Honza Bonza</jmeno>
+        <kontakt typ="mail">moje@adresa.pl</kontakt>
+        <adresa>
+            <zeme>Polsko</zeme>
+            <mesto>Warszawa</mesto>
+            <ulice>ul. Opalińska 127</ulice>
+            <PSC>01739</PSC>
+        </adresa>
+    </prepravce>
+    <zbozi>
+        <platba zaplaceno="true">Karta</platba>
+        <celkovaVaha>500</celkovaVaha>
+        <polozka>
+            <sekvence>1</sekvence>
+            <zemePuvod>CZ</zemePuvod>
+            <zemeCil>SK</zemeCil>
+            <vaha>200</vaha>
+            <prepravniZarizeni druh="kontejner">
+                <oznaceni>D45F6DF5</oznaceni>
+                <pocetPeceti>2</pocetPeceti>
+            </prepravniZarizeni>
+        </polozka>
+        <polozka>
+            <sekvence>2</sekvence>
+            <zemePuvod>CZ</zemePuvod>
+            <zemeCil>SK</zemeCil>
+            <vaha>50</vaha>
+            <prepravniZarizeni druh="paleta">
+                <oznaceni>6NC5CBV4</oznaceni>
+                <pocetPeceti>0</pocetPeceti>
+            </prepravniZarizeni>
+        </polozka>
+        <polozka>
+            <sekvence>3</sekvence>
+            <zemePuvod>CZ</zemePuvod>
+            <zemeCil>UK</zemeCil>
+            <vaha>250</vaha>
+            <prepravniZarizeni druh="kontejner">
+                <oznaceni>8ETR4Y46</oznaceni>
+                <pocetPeceti>6</pocetPeceti>
+            </prepravniZarizeni>
+        </polozka>
+    </zbozi>
+</deklarace>
